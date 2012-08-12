@@ -1,44 +1,6 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Scala-montreal.github.com : " />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Scala Montreal</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/scala-montreal">View on GitHub</a>
-          <h1 id="project_title">Scala Montreal</h1>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h2>Welcome to Scala Montreal</h3>
-        <p>This is the home of Montreal Scala developers community. If you are interested, join the mailing list <a href="https://groups.google.com/forum/?fromgroups#!forum/scala-montreal">mailing-list</a>.</p>
-        <h2>Latest News</h2>
-        {{ content }}
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
-</html>
+---
+theme :
+  name : hooligan
+---
+{% include JB/setup %}
+{% include themes/hooligan/default.html %}
