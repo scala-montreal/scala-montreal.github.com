@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Scala Montreal
+% tagline: Supporting tagline
 ---
 
 {% for post in site.posts %}
-  {{ post.content }}
-  <hr />
+ {{ post.content }}
 {% endfor %}
 
 {% include JB/setup %}
