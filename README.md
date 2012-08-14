@@ -1,1 +1,0 @@
-www.scala-montreal.org
