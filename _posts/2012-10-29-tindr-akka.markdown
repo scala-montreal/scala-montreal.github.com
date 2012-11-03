@@ -5,7 +5,7 @@ title: November Scala Meetup - Effective Actors in Akka
 
 ### November Scala Meetup - Effective Actors in Akka
 
-Come and join us at [Wajam](http://www.wajam.com)'s office (4115 Boul. Saint-Laurent #200) on November 5th. The [tindr](http://www.tindr.ca) team will present Effective Actors in Akka! It will start at 6pm...with beers and pizza! Register on [Even Brite](http://scala-montreal.eventbrite.ca/?ebtv=C)
+Come and join us at [Wajam](http://www.wajam.com)'s office (4115 Boul. Saint-Laurent #200) on November 5th. The [tindr](http://www.tindr.ca) team will present Effective Actors in Akka! It will start at 6pm...with beers and pizza! Register on [Event Brite](http://scala-montreal.eventbrite.ca/?ebtv=C).
 
 ### Rencontre de Novembre - Effective Actors in Akka
 
