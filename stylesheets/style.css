@@ -1,0 +1,12 @@
+#wrapper{background-color:#fff;margin:auto;max-width:1500px;-moz-box-shadow:0 0 2px 0 #9b9b9b;-webkit-box-shadow:0 0 2px 0 #9b9b9b;-o-box-shadow:0 0 2px 0 #9b9b9b;box-shadow:0 0 2px 0 #9b9b9b}
+header[role="banner"]{padding-top:2em;text-align:center;}
+header[role="banner"] a{border-bottom:none}
+header[role="banner"] h1{display:inline;font-size:30px;line-height:.9em;text-align:center;margin:auto;}
+header[role="banner"] h1 a{color:;}
+header[role="banner"] h1 a:hover{background-color:transparent;color:#777}
+header[role="banner"] h2{color:#7a7a7a;font-family:"Source Sans Pro",sans-serif;font-size:16px;font-weight:normal;margin-bottom:0}
+.cover{background-attachment:fixed;background-position:50% 0;background-repeat:no-repeat;}
+.cover hgroup{margin:6em 0;}
+.cover hgroup h1 a{color:#fff !important;-webkit-transition:text-shadow .5s ease-in-out;-moz-transition:text-shadow .5s ease-in-out;-o-transition:text-shadow .5s ease-in-out;transition:text-shadow .5s ease-in-out;}
+.cover hgroup h1 a:hover{background-color:transparent !important}
+.cover hgroup h2{color:#fff;font-size:24px;text-shadow:0 0 6px #555}

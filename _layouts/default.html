@@ -6,40 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Scala-montreal.github.com : " />
 
+    
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/grid.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/default.css">
 
     <title>Scala Montreal</title>
   </head>
 
   <body>
+    <div id="wrapper">
+      <header role="banner" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="640" class="container cover">
+        <div class="row">
+          <div class="grid_8 offset_2">
+            <hgroup>
+              <h1>Scala</h1>
+              <h1>Montréal</h1>
+            </hgroup>
+          </div>
+        </div>
+      </header>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/scala-montreal">View on GitHub</a>
-          <h1 id="project_title">Scala Montreal</h1>
-        </header>
+      <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+          <h2>Welcome to Scala Montreal</h3>
+          <p>For scala actions, join the <a href="https://groups.google.com/forum/?fromgroups#!forum/scala-montreal">mailing list</a>.</p>
+          <p>Pour être au courrant des dernières nouvelles scala montréal, inscrivez-vous à la <a href="https://groups.google.com/forum/?fromgroups#!forum/scala-montreal">mailing list</a>.</p>
+          <h2>Latest News</h2>
+          {{ content }}
+        </section>
+      </div>
+
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <!--script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/highlight.min.js"></script-->
+      <script src="//cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.0/jquery.stellar.min.js"></script>
+      <script src="javascripts/default.js"></script>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h2>Welcome to Scala Montreal</h3>
-        <p>For scala actions, join the <a href="https://groups.google.com/forum/?fromgroups#!forum/scala-montreal">mailing list</a>.</p>
-        <p>Pour être au courrant des dernières nouvelles scala montréal, inscrivez-vous à la <a href="https://groups.google.com/forum/?fromgroups#!forum/scala-montreal">mailing list</a>.</p>
-        <h2>Latest News</h2>
-        {{ content }}
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
   </body>
 </html>
