@@ -3,5 +3,13 @@ layout: default
 ---
 
 {% for post in site.posts %}
- {{ post.content }}
+<article>
+	
+	<aside class="date">
+		<p>{{ post.date | date: "%d" }} <span>{{ post.date | date: "%b" }}</span></p>
+	</aside>
+
+	{{ post.content }}
+ 	
+</article>
 {% endfor %}
