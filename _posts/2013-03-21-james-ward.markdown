@@ -13,15 +13,5 @@ Nous some heureux de recevoir James Ward, un développeur de Typesafe, au sein d
 
 ---
 <a href="http://scala-montreal-march.eventbrite.ca">Event Brite</a>
-
-<address>
-  <div class="vcard">
-		<p class="fn"><a class="url" href="http://rpm.startupcentre.ca/">RPM Startup Center</a></p>
-		<p class="adr">
-			<span class="street-address">420 Rue Guy</span><br>
-			<span class="region">Montréal, Quebec</span><br>
-		<span class="postal-code">H3J 1S6</span><br>
-		</p>
-	</div>
-</address>
+{% include rpm.html %}
 ---
