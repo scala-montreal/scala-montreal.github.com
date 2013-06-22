@@ -1,12 +1,10 @@
-header
-{
+header {
 	position: relative;
 	background-image: url("/images/Montreal-City-Night-Canada.jpg");
 	height: 400px;
 }	
 
-.header-copyright
-{
+.header-copyright {
 	position: absolute;
 	bottom:0;	
 	right:0;
@@ -14,29 +12,35 @@ header
 	font-size: smaller;
 }
 
-header[role="banner"] h1
-{
+header[role="banner"] h1 {
 	font-size: 190px;
 	color: white;
 }
 
-article
-{
+article {
 	margin-bottom: 100px;
 	margin-top: 100px;
 }
 
-a[href*=".eventbrite.ca"]
-{
-	float: right;
+a[href*=".eventbrite.ca"] {
 	background-image: url("/images/eventbrite.png");
-	width: 187px;
-	height: 58px;
-	display: block;
-	color: transparent;
 }
 
-header[role="banner"] h1.scala
-{
+a[href*=".google.com/calendar"] {
+	background-image: url("/images/googlecal.png");
+}
+
+a[href*=".eventbrite.ca"], 
+a[href*=".google.com/calendar"] {
+	background-size: 64px, 64px;
+	float: right;
+	width: 64px;
+	height: 64px;
+	display: block;
+	color: transparent;
+	font-size: 64px;
+}
+
+header[role="banner"] h1.scala {
 	-webkit-text-stroke: 2px grey;
 }
